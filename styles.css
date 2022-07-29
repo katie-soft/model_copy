@@ -1,0 +1,72 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+.header {
+  max-width: 1920px;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(1, 36, 88, 0.2);
+}
+
+.header-content {
+  width: 1376px;
+}
+
+.nav {
+  gap: 12px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0079c2;
+  border: 1px;
+  border-color: #0079c2;
+  border-radius: 50px;
+}
+
+.main {
+  background-color: #f0f5fa;
+  height: 100px;
+  width: 1920px;
+}
+
+.page-breadcrumbs {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.page-title {
+  font-weight: 300;
+  font-size: 56px;
+  color: #fff;
+}
+
+.footer {
+  height: 304px;
+  max-width: 1920px;
+  background-color: #fff;
+  border-radius: 10% 0 10% 0;
+}
+
+.footer-content {
+  width: 1376px;
+  padding-top: 72px;
+}
+
+.footer-contacts {
+  height: 160px;
+}
+
+.footer-link,
+.footer-contacts {
+  color: #6e828c;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
